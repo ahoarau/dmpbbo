@@ -10,7 +10,8 @@ compiler:
 addons:
   apt:
     packages:
-    - eigen
+    - libeigen3-dev
+    - libboost-dev
     
 branches:
   only:
